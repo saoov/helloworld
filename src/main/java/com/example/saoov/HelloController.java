@@ -13,4 +13,9 @@ public class HelloController {
     public String hello() {
         return "Hello, SAOOV World!!!!!!!!!";
     }
+
+    @GetMapping("/saoov")
+    public String saoov() {
+        return "I am saoov..";
+    }
 }
